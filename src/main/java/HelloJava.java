@@ -5,6 +5,7 @@
  */
 class HelloJava {
 	public afficherCancan(){
-
+		System.out.println("youhou");
+		// oui
 	}
 }
