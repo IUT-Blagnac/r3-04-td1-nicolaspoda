@@ -1,4 +1,8 @@
 Ceci est un document texteDeuxième ligne ajoutée par une autre personne
 
 modif2 depuis branche
-modif du fichier
+
+
+
+ajout pour conflits
+
