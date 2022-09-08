@@ -7,7 +7,7 @@
 import java.util.Scanner;
 public class ReleveTemperature
 {
-    public static void principale() {
+    public static void main() {
 
         Scanner clavier = new Scanner(System.in);
         System.out.println ("Entrez un nombre de températures");
