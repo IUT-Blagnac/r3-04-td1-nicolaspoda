@@ -23,6 +23,7 @@ public class ReleveTemperature
             System.out.println ("Entrez une température");
             tabTemperatures[i] = clavier.nextDouble();
         }
+
         double moyenneTemperatures;
         moyenneTemperatures = 0;
 
@@ -51,6 +52,12 @@ public class ReleveTemperature
         }
     }
 
+    /**
+    *Permet de faire la moyenne des températures
+    *@param nbTemperatures IN : le nombre de températures
+    *@param tab IN : tableau contenant les températures
+    *@return la moyenne des températures
+     */
     public static double moyenne(int nbTemperatures, double tab []) {
         double somme = 0;
         double moyenne = 0;
@@ -62,6 +69,12 @@ public class ReleveTemperature
         return (moyenne);
     }
 
+    /**
+    *Permet de trouver la température minimale
+    *@param nbTemperatures IN : le nombre de températures
+    *@param tab IN : tableau contenant les températures
+    *@return la température minimale
+    */
     public static double min (int nbTemperatures, double tab []) {
         int i;
         i = 0;
@@ -76,6 +89,12 @@ public class ReleveTemperature
         return temperatureBasse;
     }
 
+    /**
+    *Permet de trouver la température maximale
+    *@param nbTemperatures IN : le nombre de températures
+    *@param tab IN : tableau contenant les températures
+    *@return la température maximale
+    */
     public static double max (int nbTemperatures, double tab []) {
         int i;
         double temperatureHaute = 0;
@@ -89,6 +108,12 @@ public class ReleveTemperature
         return temperatureHaute;
     }
 
+    /**
+    *Permet de trouver le nombre d'occurences d'une température
+    *@param nbTemperatures IN : le nombre de températures
+    *@param tab IN : tableau contenant les températures
+    *@param temperature IN : la température dont on veut avoir le nombre d'occurences
+    */
     public static int nbOccurences (int nbTemperatures, double tab [], double temperature) {
 
         int occurences = 0;
