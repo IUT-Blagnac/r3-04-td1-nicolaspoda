@@ -2,3 +2,4 @@ Ceci est un document texteDeuxième ligne ajoutée par une autre personne
 
 modif2 depuis branche
 
+ajout pour conflits
