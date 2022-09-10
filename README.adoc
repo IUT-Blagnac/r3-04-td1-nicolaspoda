@@ -151,8 +151,10 @@ image::maven_javadoc_target.png["Dossier javadoc", width=80%]
 
 == Instructions de lancement du projet
 
-Pour lancer le projet, vous devez générer un .jar avec la commande suivante :
+Avant de lancer le projet, vous devez générer un .jar avec la commande suivante : "mvn package".
 
 Le .jar se trouvera dans le dossier "target". 
 
 image::maven_jar_target.png["Stockage jar", width=80%]
+
+Pour lancer votre projet, vous devrez vous placer dans le répertoire dans lequel est le .jar, puis exécuter la commande "java-jar tp_qualite-1.0.jar"
