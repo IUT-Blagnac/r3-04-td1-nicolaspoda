@@ -129,3 +129,22 @@ image::success2.png["Ca run!", width=80%]
 
 Pour ce TP, il vous faudra simplement rendre le projet complet (`src`) ainsi que la dernière version du fichier `pom.xml` sur votre dépôt et la javadoc de votre code.
 
+== Instructions de compilation 
+
+Pour compiler votre code, il vous faudra exécuter la commande "mvn compile". 
+
+S'il y a une erreur qui empêche la compilation, le message suivant apparaitra :
+
+Si rien n'empêche la compilation, le message suivant apparaitra :
+
+== Instructions de documentation
+
+Pour générer la javadoc de votre programme, il vous faudra exécuter la commande :
+
+Par la suite, dans le dossier "target", un dossier "site" sera créé. Dans ce dossier, tous les fichiers constituant votre javadoc seront stockés.
+
+== Instructions de lancement du projet
+
+Pour lancer le projet, vous devez générer un .jar avec la commande suivante :
+
+Le .jar se trouvera dans le dossier "target". 
