@@ -34,4 +34,4 @@ Pour lancer votre projet, vous devrez vous placer dans le répertoire dans leque
 
 image::execution_jar.png["Exécution jar", width=80%]
 
-Le projet s'est bien lancé. Dans celui-ci, on nous demande d'entrer une température au départ.
+Le projet s'est bien lancé. Dans celui-ci, on nous demande d'entrer un nombre de températures au départ.
