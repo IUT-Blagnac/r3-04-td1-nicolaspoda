@@ -133,13 +133,17 @@ Pour ce TP, il vous faudra simplement rendre le projet complet (`src`) ainsi que
 
 Pour compiler votre code, il vous faudra exécuter la commande "mvn compile". 
 
-S'il y a une erreur qui empêche la compilation, le message suivant apparaitra :
+S'il y a une erreur qui empêche la compilation, le message suivant apparaîtra :
 
-Si rien n'empêche la compilation, le message suivant apparaitra :
+image::error1.png["Erreur de compilation", width=80%]
+
+Si rien n'empêche la compilation, le message suivant apparaîtra :
+
+image::success1.png["Erreur éliminée", width=80%]
 
 == Instructions de documentation
 
-Pour générer la javadoc de votre programme, il vous faudra exécuter la commande :
+Pour générer la javadoc de votre programme, il vous faudra exécuter la commande : "mvn javadoc:javadoc"
 
 Par la suite, dans le dossier "target", un dossier "site" sera créé. Dans ce dossier, tous les fichiers constituant votre javadoc seront stockés.
 
