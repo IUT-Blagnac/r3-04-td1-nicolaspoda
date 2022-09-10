@@ -145,10 +145,14 @@ image::success1.png["Erreur éliminée", width=80%]
 
 Pour générer la javadoc de votre programme, il vous faudra exécuter la commande : "mvn javadoc:javadoc"
 
-Par la suite, dans le dossier "target", un dossier "site" sera créé. Dans ce dossier, tous les fichiers constituant votre javadoc seront stockés.
+Par la suite, dans le dossier "target", un dossier "site", contenant un dossier "apidocs" sera créé. Dans ce dossier, tous les fichiers constituant votre javadoc seront stockés.
+
+image::maven_javadoc_target.png["Dossier javadoc", width=80%]
 
 == Instructions de lancement du projet
 
 Pour lancer le projet, vous devez générer un .jar avec la commande suivante :
 
 Le .jar se trouvera dans le dossier "target". 
+
+image::maven_jar_target.png["Stockage jar", width=80%]
